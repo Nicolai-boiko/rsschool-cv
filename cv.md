@@ -33,4 +33,4 @@ export default makeItFunny;
 5. I haven't experience in IT for now. But i can add a link with picture of two **big people !** ![Gabe and Hideo](https://www.pcgamesn.com/wp-content/uploads/2018/10/hideo-kojima-valve-gabe-newell-580x334.jpg)
    > Just the biggest
 6. I graduated from Yanka Kupala University. Specialization physicist engineer.
-7. Had no practice in English.
+7. Had no practice in English. Polish(B2)
