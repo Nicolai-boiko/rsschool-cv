@@ -7,6 +7,7 @@
 
 - Mob. phone: +375-(33)-654-48-73
 - E-mail: nicolai_boiko@mail.ru
+- vk_id: nicolasha_oo
 
 3. I want to learn a new profession in best IT company in the country and so good in this sphere like my mentor @alexander-lozovsky.
 4. I just start to learning and have no skills at my opinion. Here is my last code on Hexlet course:
