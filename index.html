@@ -2,50 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1024px, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Task_2</title>
 </head>
-<body align="center">
-   <header>
-    **_My first task on github_**
-
-    ## My Resume
-    <img src="https://sun2.beltelecom-by-minsk.userapi.com/c846417/v846417053/e7a7f/DBJnsHXfp9s.jpg" alt="Моя аватарка" height="320px" title="Аватар короля">
+<body>
+   <div class="bodyStyle">
+    <header>
+    <h1>My Resume</h1>
+    <img src="https://sun2.beltelecom-by-minsk.userapi.com/c846417/v846417053/e7a7f/DBJnsHXfp9s.jpg" alt="Моя аватарка" height="200px" title="Аватар короля">
 </header> 
 
 <main>
-1. Nicolai Boiko
-2. Contact Info:
-
-- Mob. phone: +375-(33)-654-48-73
-- E-mail: nicolai_boiko@mail.ru
-- vk_id: nicolasha_oo
-
-3. I want to learn a new profession in best IT company in the country and so good in this sphere like my mentor @alexander-lozovsky.
-4. I just start to learning and have no skills at my opinion. Here is my last code on Hexlet course:
-
-```javascript
-const makeItFunny = (str, n) => {
-  let i = 0;
-  let result = "";
-  while (i < str.length) {
-    const current = str[i];
-    if ((i + 1) % n === 0) {
-      result = `${result}${current.toUpperCase()}`;
-    } else {
-      result = `${result}${current}`;
-    }
-    i += 1;
-  }
-  return result;
-};
-export default makeItFunny;
-```
-
-5. I haven't experience in IT for now. But i can add a link with picture of two **big people !** ![Gabe and Hideo](https://www.pcgamesn.com/wp-content/uploads/2018/10/hideo-kojima-valve-gabe-newell-580x334.jpg)
-   > Just the biggest
-6. I graduated from Yanka Kupala University. Specialization physicist engineer.
-7. Had no practice in English. Polish(B2)
+    <ol>
+        <li>Nicolai Boiko</li>
+        <li>Contact Info:
+            <ul>
+                <li>Mob. phone: <a href="tel:+375336544873" target="_blank"> +375-(33)-654-48-73</a></li>
+                <li>E-mail: <a href="mailto:nicolai_boiko@mail.ru" target="_blank">nicolai_boiko@mail.ru</a></li>
+                <li>vk_id: <a href="https://vk.com/nikolasha_oo" target="_blank">nicolasha_oo</a></li>
+            </ul>
+        </li>
+        <li>I want to learn a new profession in best IT company in the country and so good in this sphere like my mentor <a href="https://github.com/alexander-lozovsky" target="_blank">alexander-lozovsky</a>.</li>
+        <li>I just start to learning and have no skills at my opinion. Here is my last code on Hexlet course:
+            <code>
+                <pre>
+                const makeItFunny = (str, n) => {
+                let i = 0;
+                let result = "";
+                while (i < str.length) {
+                  const current = str[i];
+                  if ((i + 1) % n === 0) {
+                    result = `${result}${current.toUpperCase()}`;
+                  } else {
+                    result = `${result}${current}`;
+                  }
+                  i += 1;
+                }
+                return result;
+              };
+              export default makeItFunny;
+            </pre>
+            </code>
+        </li>
+        <li>
+            <figure>
+                <figcaption> I haven't experience in IT for now. But i can add a link with picture of two <strong>big people !</strong> </figcaption>
+                <img src="https://www.pcgamesn.com/wp-content/uploads/2018/10/hideo-kojima-valve-gabe-newell-580x334.jpg" alt="Gabe and Hideo" title="Gabe and Hideo">           
+        </figure>
+        </li>
+        <li>I graduated from Yanka Kupala University. Specialization physicist engineer</li>
+        <li>Had no practice in English. Polish(B2)</li>
+    </ol>
 </main>
+</div>
 </body>
 </html>
